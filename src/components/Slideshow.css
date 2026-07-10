@@ -246,3 +246,27 @@
   transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 0 2px 2px 0;
 }
+
+/* ===== MOBILE ADJUSTMENTS ===== */
+@media (max-width: 768px) {
+  .slide-nav {
+    /* Angkat navigasi lebih tinggi agar tidak tertutup UI browser HP */
+    bottom: 4rem; 
+  }
+  
+  .slide-content {
+    /* Tambah padding bawah agar teks tidak menabrak navigasi yang dinaikkan */
+    padding-bottom: 9rem;
+  }
+  
+  .collage-item {
+    /* Perkecil ukuran foto di HP agar lebih banyak foto yang muat dalam satu layar */
+    flex: 1 1 120px;
+    height: 160px;
+    border-radius: 8px;
+  }
+  
+  .slide-text-box {
+    padding: 1.5rem 1.8rem;
+  }
+}

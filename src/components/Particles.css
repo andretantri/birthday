@@ -1,0 +1,20 @@
+.particles-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle linear infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.1; transform: scale(1) translateY(0); }
+  30% { opacity: 0.9; transform: scale(1.4) translateY(-8px); }
+  60% { opacity: 0.3; transform: scale(0.8) translateY(4px); }
+}

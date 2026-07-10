@@ -1,0 +1,35 @@
+{
+  "name": "Nindi",
+  "birthdayDate": "10 Juli",
+  "introTitle": "Happy Birthday Nindi Sayang!",
+  "introSubtitle": "Ada sesuatu spesial untukmu hari ini...",
+  "slides": [
+    {
+      "id": 1,
+      "photo": "/photos/photo1.jpg",
+      "caption": "Dari pertama kali kita bertemu, aku tahu kamu adalah seseorang yang spesial.",
+      "subcaption": "Terima kasih sudah hadir dalam hidupku"
+    },
+    {
+      "id": 2,
+      "photo": "/photos/photo2.jpg",
+      "caption": "Setiap momen bersamamu selalu terasa seperti mimpi yang menjadi nyata.",
+      "subcaption": "Kamu membuat duniaku lebih berwarna"
+    },
+    {
+      "id": 3,
+      "photo": "/photos/photo3.jpg",
+      "caption": "Aku bersyukur setiap hari bisa mengenal dan mencintaimu.",
+      "subcaption": "Kamu adalah alasanku selalu tersenyum"
+    },
+    {
+      "id": 4,
+      "photo": "/photos/photo4.jpg",
+      "caption": "Semoga di hari istimewamu ini kamu merasakan betapa berartinya kamu bagiku.",
+      "subcaption": "Selalu ada untukmu, selamanya"
+    }
+  ],
+  "closingMessage": "Selamat ulang tahun, cintaku.",
+  "closingSubtext": "Semoga semua impianmu terwujud dan kebahagiaanmu tak pernah pudar.",
+  "closingSignature": "Dengan cinta yang tulus, Aku 💕"
+}
